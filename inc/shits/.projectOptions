@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectOptions>
+	<resource name="">
+		<options>
+			<entry value="false" name="overrideProjectConfig"/>
+			<entry value="0" name="optimizerLevel"/>
+			<entry value="true" name="useWorkspaceOverviewSettings"/>
+			<entry value="true" name="supportInternalEntities"/>
+		</options>
+	</resource>
+</projectOptions>
