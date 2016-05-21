@@ -1,0 +1,13 @@
+DirectoryIndex index.php
+
+FileETag none
+ServerSignature Off
+
+Options All -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([0-9a-zA-Z]{1,6})$ fly/?to=$1 [L]
+RewriteRule ^([0-9]{1,9})/banner/(.*)$ fly/?uid=$1&adt=2&url=$2 [L]
+RewriteRule ^([0-9]{1,9})/(.*)$ fly/?uid=$1&adt=1&url=$2 [L]
+</IfModule>
